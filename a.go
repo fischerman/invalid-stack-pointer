@@ -6,7 +6,6 @@ import (
 	"github.com/stackitcloud/stackit-sdk-go/services/loadbalancer"
 )
 
-// name will be empty.
 func f() (*loadbalancer.CreateLoadBalancerPayload, error) {
 	return nil, fmt.Errorf("test")
 
